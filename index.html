@@ -130,6 +130,17 @@
       gap: 24px;
     }
 
+    .demos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+
+    .demo {
+      padding: 24px;
+      border-radius: 18px;
+    }
+
     .feature {
       background: var(--panel);
       padding: 24px;
@@ -178,6 +189,7 @@
     <div class="logo">SAMAR™</div>
     <nav>
       <a href="#features">Features</a>
+      <a href="#demos">Demos</a>
       <a href="#training">Training</a>
       <a href="#specs">Specs</a>
       <a href="#contact">Contact</a>
@@ -220,6 +232,19 @@
         <div class="feature">
           <h3>Modular Armor</h3>
           <p>Swappable bags to simulate different opponents.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="demos">
+      <div class="demos">
+        <div class="demo">
+          <h2>SAMAR Movement Demo</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPjG0p-31MU?si=WDvpxWHymLXogRZb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="demo">
+          <h2>SAMAR Tracking Demo</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SVckKlRAG6c?si=V0W5P3xBtJ7F8-q9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     </section>
